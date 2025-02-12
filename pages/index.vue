@@ -5,87 +5,87 @@ import { useMotion } from "@vueuse/motion";
 
 const showGallery = ref(false);
 const images = ref([
-  { src: "/images/image53.png", cols: 6 },
+  { src: "/image53.png", cols: 6 },
   {
-    src: "/images/image2.jpg",
+    src: "/image2.jpg",
     cols: 6,
     children: [
-      { src: "/images/image3.jpg", cols: 12 },
-      { src: "/images/image4.jpg", cols: 12 },
+      { src: "/image3.jpg", cols: 12 },
+      { src: "/image4.jpg", cols: 12 },
     ],
   },
-  { src: "/images/image5.jpg", cols: 6 },
-  { src: "/images/image6.jpg", cols: 4 },
-  { src: "/images/image8.jpg", cols: 3 },
-  { src: "/images/image7.jpg", cols: 5 },
-  { src: "/images/image9.jpg", cols: 8 },
-  { src: "/images/image10.jpg", cols: 4 },
+  { src: "/image5.jpg", cols: 6 },
+  { src: "/image6.jpg", cols: 4 },
+  { src: "/image8.jpg", cols: 3 },
+  { src: "/image7.jpg", cols: 5 },
+  { src: "/image9.jpg", cols: 8 },
+  { src: "/image10.jpg", cols: 4 },
 
-  { src: "/images/image12.jpg", cols: 4 },
+  { src: "/image12.jpg", cols: 4 },
   {
-    src: "/images/image13.jpg",
+    src: "/image13.jpg",
     cols: 8,
     children: [
-      { src: "/images/image14.jpg", cols: 12 },
-      { src: "/images/image15.jpg", cols: 12 },
+      { src: "/image14.jpg", cols: 12 },
+      { src: "/image15.jpg", cols: 12 },
     ],
   },
-  { src: "/images/image16.jpg", cols: 6 },
-  { src: "/images/image17.jpg", cols: 4 },
-  { src: "/images/image18.jpg", cols: 3 },
-  { src: "/images/image19.jpg", cols: 5 },
-  { src: "/images/image20.jpg", cols: 8 },
-  { src: "/images/image21.jpg", cols: 4 },
+  { src: "/image16.jpg", cols: 6 },
+  { src: "/image17.jpg", cols: 4 },
+  { src: "/image18.jpg", cols: 3 },
+  { src: "/image19.jpg", cols: 5 },
+  { src: "/image20.jpg", cols: 8 },
+  { src: "/image21.jpg", cols: 4 },
 
-  { src: "/images/image32.jpg", cols: 4 },
+  { src: "/image32.jpg", cols: 4 },
   {
-    src: "/images/image23.jpg",
+    src: "/image23.jpg",
     cols: 8,
     children: [
-      { src: "/images/image24.jpg", cols: 12 },
-      { src: "/images/image25.jpg", cols: 12 },
+      { src: "/image24.jpg", cols: 12 },
+      { src: "/image25.jpg", cols: 12 },
     ],
   },
-  { src: "/images/image26.jpg", cols: 6 },
-  { src: "/images/image27.jpg", cols: 4 },
-  { src: "/images/image28.jpg", cols: 3 },
-  { src: "/images/image29.jpg", cols: 5 },
-  { src: "/images/image30.jpg", cols: 8 },
-  { src: "/images/image31.jpg", cols: 4 },
+  { src: "/image26.jpg", cols: 6 },
+  { src: "/image27.jpg", cols: 4 },
+  { src: "/image28.jpg", cols: 3 },
+  { src: "/image29.jpg", cols: 5 },
+  { src: "/image30.jpg", cols: 8 },
+  { src: "/image31.jpg", cols: 4 },
 
-  { src: "/images/image33.jpg", cols: 6 },
+  { src: "/image33.jpg", cols: 6 },
   {
-    src: "/images/image34.jpg",
+    src: "/image34.jpg",
     cols: 6,
     children: [
-      { src: "/images/image35.jpg", cols: 12 },
-      { src: "/images/image36.jpg", cols: 12 },
+      { src: "/image35.jpg", cols: 12 },
+      { src: "/image36.jpg", cols: 12 },
     ],
   },
-  { src: "/images/image37.jpg", cols: 6 },
-  { src: "/images/image38.jpg", cols: 4 },
-  { src: "/images/image39.jpg", cols: 3 },
-  { src: "/images/image40.jpg", cols: 5 },
-  { src: "/images/image41.jpg", cols: 8 },
-  { src: "/images/image42.jpg", cols: 4 },
+  { src: "/image37.jpg", cols: 6 },
+  { src: "/image38.jpg", cols: 4 },
+  { src: "/image39.jpg", cols: 3 },
+  { src: "/image40.jpg", cols: 5 },
+  { src: "/image41.jpg", cols: 8 },
+  { src: "/image42.jpg", cols: 4 },
 
-  { src: "/images/image43.jpg", cols: 5 },
+  { src: "/image43.jpg", cols: 5 },
   {
-    src: "/images/image44.jpg",
+    src: "/image44.jpg",
     cols: 7,
     children: [
-      { src: "/images/image45.jpg", cols: 12 },
-      { src: "/images/image46.jpg", cols: 12 },
+      { src: "/image45.jpg", cols: 12 },
+      { src: "/image46.jpg", cols: 12 },
     ],
   },
-  { src: "/images/image47.jpg", cols: 6 },
-  { src: "/images/image48.jpg", cols: 4 },
-  { src: "/images/image49.jpg", cols: 3 },
-  { src: "/images/image50.jpg", cols: 5 },
-  { src: "/images/image51.jpg", cols: 8 },
-  { src: "/images/image52.jpg", cols: 4 },
-  { src: "/images/image54.png", cols: 6 },
-  { src: "/images/image55.png", cols: 6 },
+  { src: "/image47.jpg", cols: 6 },
+  { src: "/image48.jpg", cols: 4 },
+  { src: "/image49.jpg", cols: 3 },
+  { src: "/image50.jpg", cols: 5 },
+  { src: "/image51.jpg", cols: 8 },
+  { src: "/image52.jpg", cols: 4 },
+  { src: "/image54.png", cols: 6 },
+  { src: "/image55.png", cols: 6 },
 ]);
 
 // about section
@@ -152,7 +152,7 @@ const startProposal = () => {
         <div class="video-overlay"></div>
         <div class="background-wrapper">
           <video autoplay loop muted class="background-video">
-            <source src="/images/video1.mp4" type="video/mp4" />
+            <source src="/video1.mp4" type="video/mp4" />
           </video>
         </div>
         <div class="video-overlay-text">
@@ -170,7 +170,7 @@ const startProposal = () => {
         <div ref="aboutSection" v-motion :enter="{ opacity: 0, y: 100 }" :visible="{ opacity: 1, y: 0 }"
           class="about-section">
           <div class="about-image">
-            <img src="/images/image1.jpg" alt="Profile Picture" />
+            <img src="/image1.jpg" alt="Profile Picture" />
           </div>
           <v-card class="mx-auto" prepend-icon="mdi-heart" title="About This Amazing Lady" color="#FAF3E0" width="800"
             height="520">
@@ -331,7 +331,7 @@ const startProposal = () => {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-image: url("/images/image50.jpg");
+  background-image: url("/image50.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
