@@ -1,6 +1,6 @@
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
-  //...
+  ssr: false,
   build: {
     transpile: ['vuetify'],
   },
@@ -23,6 +23,8 @@ export default defineNuxtConfig({
       },
     },
   },
-
+  app: {
+    baseURL: '/ForMyLove/',
+  },
   compatibilityDate: '2025-01-30',
 })
