@@ -24,4 +24,4 @@ logs
 !.env.example
 
 # ignoring images
-/public/images
+# /public/images
