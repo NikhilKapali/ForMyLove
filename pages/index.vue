@@ -27,7 +27,7 @@ const images = ref([
     cols: 8,
     children: [
       { src: "/image14.JPG", cols: 12 },
-      { src: "/image15.JPG", cols: 12 },
+      { src: "/image15.jpg", cols: 12 },
     ],
   },
   { src: "/image16.JPG", cols: 6 },
@@ -50,7 +50,7 @@ const images = ref([
   { src: "/image27.JPG", cols: 4 },
   { src: "/image28.JPG", cols: 3 },
   { src: "/image29.JPG", cols: 5 },
-  { src: "/image30.JPG", cols: 8 },
+  { src: "/image30.jpg", cols: 8 },
   { src: "/image31.JPG", cols: 4 },
 
   { src: "/image33.JPG", cols: 6 },
@@ -170,7 +170,7 @@ const startProposal = () => {
         <div ref="aboutSection" v-motion :enter="{ opacity: 0, y: 100 }" :visible="{ opacity: 1, y: 0 }"
           class="about-section">
           <div class="about-image">
-            <img src='/image1.JPG' alt="profile" />
+            <v-img src='/image1.JPG' alt="profile" />
           </div>
           <v-card class="mx-auto" prepend-icon="mdi-heart" title="About This Amazing Lady" color="#FAF3E0" width="800"
             height="520">
