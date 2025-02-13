@@ -152,7 +152,7 @@ const startProposal = () => {
         <div class="video-overlay"></div>
         <div class="background-wrapper">
           <video autoplay loop muted class="background-video">
-            <source src="/video1.mp4" type="video/mp4" />
+            <source src='/video1.mp4' type="video/mp4" />
           </video>
         </div>
         <div class="video-overlay-text">
@@ -170,7 +170,7 @@ const startProposal = () => {
         <div ref="aboutSection" v-motion :enter="{ opacity: 0, y: 100 }" :visible="{ opacity: 1, y: 0 }"
           class="about-section">
           <div class="about-image">
-            <img src="/image1.jpg" alt="Profile Picture" />
+            <img src='/image1.jpg' alt="Profile Picture" />
           </div>
           <v-card class="mx-auto" prepend-icon="mdi-heart" title="About This Amazing Lady" color="#FAF3E0" width="800"
             height="520">
