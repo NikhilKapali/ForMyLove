@@ -7,83 +7,83 @@ const showGallery = ref(false);
 const images = ref([
   { src: "/image53.png", cols: 6 },
   {
-    src: "/image2.JPG",
+    src: "/image2.jpg",
     cols: 6,
     children: [
-      { src: "/image3.JPG", cols: 12 },
-      { src: "/image4.JPG", cols: 12 },
+      { src: "/image3.jpg", cols: 12 },
+      { src: "/image4.jpg", cols: 12 },
     ],
   },
-  { src: "/image5.JPG", cols: 6 },
-  { src: "/image6.JPG", cols: 4 },
-  { src: "/image8.JPG", cols: 3 },
-  { src: "/image7.JPG", cols: 5 },
-  { src: "/image9.JPG", cols: 8 },
-  { src: "/image10.JPG", cols: 4 },
+  { src: "/image5.jpg", cols: 6 },
+  { src: "/image6.jpg", cols: 4 },
+  { src: "/image8.jpg", cols: 3 },
+  { src: "/image7.jpg", cols: 5 },
+  { src: "/image9.jpg", cols: 8 },
+  { src: "/image10.jpg", cols: 4 },
 
-  { src: "/image12.JPG", cols: 4 },
+  { src: "/image12.jpg", cols: 4 },
   {
-    src: "/image13.JPG",
+    src: "/image13.jpg",
     cols: 8,
     children: [
-      { src: "/image14.JPG", cols: 12 },
-      { src: "/image15.JPG", cols: 12 },
+      { src: "/image14.jpg", cols: 12 },
+      { src: "/image15.jpg", cols: 12 },
     ],
   },
-  { src: "/image16.JPG", cols: 6 },
-  { src: "/image17.JPG", cols: 4 },
-  { src: "/image18.JPG", cols: 3 },
-  { src: "/image19.JPG", cols: 5 },
-  { src: "/image20.JPG", cols: 8 },
-  { src: "/image21.JPG", cols: 4 },
+  { src: "/image16.jpg", cols: 6 },
+  { src: "/image17.jpg", cols: 4 },
+  { src: "/image18.jpg", cols: 3 },
+  { src: "/image19.jpg", cols: 5 },
+  { src: "/image20.jpg", cols: 8 },
+  { src: "/image21.jpg", cols: 4 },
 
-  { src: "/image32.JPG", cols: 4 },
+  { src: "/image32.jpg", cols: 4 },
   {
-    src: "/image23.JPG",
+    src: "/image23.jpg",
     cols: 8,
     children: [
-      { src: "/image24.JPG", cols: 12 },
-      { src: "/image25.JPG", cols: 12 },
+      { src: "/image24.jpg", cols: 12 },
+      { src: "/image25.jpg", cols: 12 },
     ],
   },
-  { src: "/image26.JPG", cols: 6 },
-  { src: "/image27.JPG", cols: 4 },
-  { src: "/image28.JPG", cols: 3 },
-  { src: "/image29.JPG", cols: 5 },
-  { src: "/image30.JPG", cols: 8 },
-  { src: "/image31.JPG", cols: 4 },
+  { src: "/image26.jpg", cols: 6 },
+  { src: "/image27.jpg", cols: 4 },
+  { src: "/image28.jpg", cols: 3 },
+  { src: "/image29.jpg", cols: 5 },
+  { src: "/image30.jpg", cols: 8 },
+  { src: "/image31.jpg", cols: 4 },
 
-  { src: "/image33.JPG", cols: 6 },
+  { src: "/image33.jpg", cols: 6 },
   {
-    src: "/image34.JPG",
+    src: "/image34.jpg",
     cols: 6,
     children: [
-      { src: "/image35.JPG", cols: 12 },
-      { src: "/image36.JPG", cols: 12 },
+      { src: "/image35.jpg", cols: 12 },
+      { src: "/image36.jpg", cols: 12 },
     ],
   },
-  { src: "/image37.JPG", cols: 6 },
-  { src: "/image38.JPG", cols: 4 },
-  { src: "/image39.JPG", cols: 3 },
-  { src: "/image40.JPG", cols: 5 },
-  { src: "/image41.JPG", cols: 8 },
-  { src: "/image42.JPG", cols: 4 },
+  { src: "/image37.jpg", cols: 6 },
+  { src: "/image38.jpg", cols: 4 },
+  { src: "/image39.jpg", cols: 3 },
+  { src: "/image40.jpg", cols: 5 },
+  { src: "/image41.jpg", cols: 8 },
+  { src: "/image42.jpg", cols: 4 },
 
-  { src: "/image43.JPG", cols: 5 },
+  { src: "/image43.jpg", cols: 5 },
   {
-    src: "/image44.JPG",
+    src: "/image44.jpg",
     cols: 7,
     children: [
-      { src: "/image45.JPG", cols: 12 },
-      { src: "/image46.JPG", cols: 12 },
+      { src: "/image45.jpg", cols: 12 },
+      { src: "/image46.jpg", cols: 12 },
     ],
   },
-  { src: "/image47.JPG", cols: 6 },
-  { src: "/image48.JPG", cols: 4 },
-  { src: "/image49.JPG", cols: 3 },
-  { src: "/image50.JPG", cols: 5 },
-  { src: "/image51.JPG", cols: 8 },
-  { src: "/image52.JPG", cols: 4 },
+  { src: "/image47.jpg", cols: 6 },
+  { src: "/image48.jpg", cols: 4 },
+  { src: "/image49.jpg", cols: 3 },
+  { src: "/image50.jpg", cols: 5 },
+  { src: "/image51.jpg", cols: 8 },
+  { src: "/image52.jpg", cols: 4 },
   { src: "/image54.png", cols: 6 },
   { src: "/image55.png", cols: 6 },
 ]);
@@ -170,7 +170,7 @@ const startProposal = () => {
         <div ref="aboutSection" v-motion :enter="{ opacity: 0, y: 100 }" :visible="{ opacity: 1, y: 0 }"
           class="about-section">
           <div class="about-image">
-            <img :src='"/image1.JPG"' alt="profile" />
+            <img :src='"/image1.jpg"' alt="profile" />
           </div>
           <v-card class="mx-auto" prepend-icon="mdi-heart" title="About This Amazing Lady" color="#FAF3E0" width="800"
             height="520">
@@ -245,14 +245,14 @@ const startProposal = () => {
             <v-row>
               <template v-for="(image, imgIdx) in images" :key="imgIdx">
                 <v-col :cols="image.cols">
-                  <img :src="image.src" height="100%" cover class="rounded-lg elevation-2" />
+                  <img :src="'{{image.src}}'" height="100%" cover class="rounded-lg elevation-2" />
                 </v-col>
 
                 <!-- Nested children images (if any) -->
                 <v-col v-if="image.children" class="d-flex flex-column" :cols="6">
                   <v-row>
                     <v-col v-for="(children, childIdx) in image.children" :key="childIdx" :cols="children.cols">
-                      <img :src="children.src" height="100%" cover class="rounded-lg elevation-2" />
+                      <img :src="'{{children.src}}'" height="100%" cover class="rounded-lg elevation-2" />
                     </v-col>
                   </v-row>
                 </v-col>
@@ -307,7 +307,7 @@ const startProposal = () => {
 <style scoped>
 .container {
   width: 100%;
-  background-image: url("/background4.JPG");
+  background-image: url("/background4.jpg");
   /* background-size: cover; */
   background-position: center;
   background-repeat: repeat;
@@ -331,7 +331,7 @@ const startProposal = () => {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-image: url("/image50.JPG");
+  background-image: url("/image50.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
