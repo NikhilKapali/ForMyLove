@@ -170,7 +170,7 @@ const startProposal = () => {
         <div ref="aboutSection" v-motion :enter="{ opacity: 0, y: 100 }" :visible="{ opacity: 1, y: 0 }"
           class="about-section">
           <div class="about-image">
-            <v-img src='/image1.jpg' alt="Profile Picture" />
+            <v-img :src="useAsset('/image1.jpg')" alt="Example" />
           </div>
           <v-card class="mx-auto" prepend-icon="mdi-heart" title="About This Amazing Lady" color="#FAF3E0" width="800"
             height="520">
