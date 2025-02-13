@@ -27,7 +27,7 @@ const images = ref([
     cols: 8,
     children: [
       { src: "/image14.JPG", cols: 12 },
-      { src: "/image15.jpg", cols: 12 },
+      { src: "/image15.JPG", cols: 12 },
     ],
   },
   { src: "/image16.JPG", cols: 6 },
