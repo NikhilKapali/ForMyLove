@@ -170,7 +170,7 @@ const startProposal = () => {
         <div ref="aboutSection" v-motion :enter="{ opacity: 0, y: 100 }" :visible="{ opacity: 1, y: 0 }"
           class="about-section">
           <div class="about-image">
-            <v-img :src="useAsset('/image1.jpg')" alt="profile" />
+            <v-img :src='"/image1.jpg"' alt="profile" />
           </div>
           <v-card class="mx-auto" prepend-icon="mdi-heart" title="About This Amazing Lady" color="#FAF3E0" width="800"
             height="520">
@@ -245,14 +245,14 @@ const startProposal = () => {
             <v-row>
               <template v-for="(image, imgIdx) in images" :key="imgIdx">
                 <v-col :cols="image.cols">
-                  <v-img :src="useAsset(image.src)" height="100%" cover class="rounded-lg elevation-2"></v-img>
+                  <v-img :src="image.src" height="100%" cover class="rounded-lg elevation-2"></v-img>
                 </v-col>
 
                 <!-- Nested children images (if any) -->
                 <v-col v-if="image.children" class="d-flex flex-column" :cols="6">
                   <v-row>
                     <v-col v-for="(children, childIdx) in image.children" :key="childIdx" :cols="children.cols">
-                      <v-img :src="useAsset(children.src)" height="100%" cover class="rounded-lg elevation-2"></v-img>
+                      <v-img :src="children.src" height="100%" cover class="rounded-lg elevation-2"></v-img>
                     </v-col>
                   </v-row>
                 </v-col>
