@@ -245,14 +245,14 @@ const startProposal = () => {
             <v-row>
               <template v-for="(image, imgIdx) in images" :key="imgIdx">
                 <v-col :cols="image.cols">
-                  <v-img :src="image.src" height="100%" cover class="rounded-lg elevation-2" />
+                  <v-img :src="'/ForMyLove/' + image.src" height="100%" cover class="rounded-lg elevation-2" />
                 </v-col>
 
                 <!-- Nested children images (if any) -->
                 <v-col v-if="image.children" class="d-flex flex-column" :cols="6">
                   <v-row>
                     <v-col v-for="(children, childIdx) in image.children" :key="childIdx" :cols="children.cols">
-                      <v-img :src="children.src" height="100%" cover class="rounded-lg elevation-2" />
+                      <v-img :src="'/ForMyLove/' + children.src" height=" 100%" cover class="rounded-lg elevation-2" />
                     </v-col>
                   </v-row>
                 </v-col>
